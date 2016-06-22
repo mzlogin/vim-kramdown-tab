@@ -37,4 +37,4 @@ function! s:GFMTab()
     endif
 endfunction
 
-inoremap <S-Tab> <C-R>=<SID>GFMTab()<CR>
+inoremap <leader><Tab> <C-R>=<SID>GFMTab()<CR>

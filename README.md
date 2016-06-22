@@ -32,7 +32,7 @@ With kramdown(GitHub Pages' default Markdown engine), the indent rule for conten
 
 ## Usage
 
-When you want to indent your content nested in lists, just press <kbd>Shift</kbd>+<kbd>Tab</kbd>.
+When you want to indent your content nested in lists, just press <kbd>Leader</kbd><kbd>Tab</kbd>.
 
 ## Installation
 
