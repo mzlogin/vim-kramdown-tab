@@ -9,8 +9,8 @@ function! s:GetNestedIndents()
         return 0
     endif
 
-    let l:unorderListPattern = "^[ ]*[*-]\\{1} [^ ]\\+$"
-    let l:orderedListPattern = "^[ ]*[[:digit:]]\\+.[ ]\\+[^ ]\\+$"
+    let l:unorderListPattern = "^[ ]*[*-]\\{1} .\\+$"
+    let l:orderedListPattern = "^[ ]*[[:digit:]]\\+\\.[ ]\\+.\\+$"
     let l:spacingLinePattern = "^[ ]*$"
 
     while l:rowNum > 1
