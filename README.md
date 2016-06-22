@@ -1,8 +1,8 @@
 # vim-gfm-tab
 
-A vim plugin to resolve indent issue of content nested in lists.
+A vim plugin to resolve indent issue of content nested in  Markdown lists, especially for kramdown.
 
-With kramdown(GitHub Pages' default Markdown engine), the indent rule for content nested in list is:
+With kramdown(GitHub Pages' default Markdown engine), the indent rule for content nested in lists is:
 
 * Good
 
@@ -36,7 +36,7 @@ When you want to indent your content nested in lists, just press <kbd>Shift</kbd
 
 ## Installation
 
-Suggest to manage your vim plugins via [Vundle][4] so you can install it simply three steps:
+Suggest to manage your vim plugins via [Vundle][1] so you can install it simply three steps:
 
 1. add the following line to your vimrc file
 
@@ -47,3 +47,5 @@ Suggest to manage your vim plugins via [Vundle][4] so you can install it simply 
 2. `:so $MYVIMRC`
 
 3. `:PluginInstall`
+
+[1]: http://github.com/VundleVim/Vundle.Vim
