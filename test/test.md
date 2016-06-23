@@ -7,6 +7,8 @@
 
 * unorder item one
   * nested item one
+  - nested item two
+  + nested item three
 
 *italic*
 **bold**
