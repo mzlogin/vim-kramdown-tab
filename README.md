@@ -48,4 +48,8 @@ Suggest to manage your vim plugins via [Vundle][1] so you can install it simply 
 
 3. `:PluginInstall`
 
+## Screenshots
+
+![](./screenshots/test.gif)
+
 [1]: http://github.com/VundleVim/Vundle.Vim
