@@ -1,7 +1,7 @@
-if exists("g:loaded_GFMTabPlugin")
+if exists("g:loaded_kramdownTab")
     finish
 endif
-let g:loaded_GFMTabPlugin = 1
+let g:loaded_kramdownTab = 1
 
 function! s:GetNestedIndents()
     let l:rowNum = line(".")
@@ -37,7 +37,7 @@ function! s:GetNestedIndents()
     return 0
 endfunction
 
-function! s:GFMTab()
+function! s:kramdownTab()
     let l:indents = <SID>GetNestedIndents()
     if l:indents <= 0
         return "\<Tab>"
@@ -46,4 +46,4 @@ function! s:GFMTab()
     endif
 endfunction
 
-inoremap <leader><Tab> <C-R>=<SID>GFMTab()<CR>
+inoremap <leader><Tab> <C-R>=<SID>kramdownTab()<CR>

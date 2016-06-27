@@ -1,4 +1,4 @@
-# vim-gfm-tab
+# vim-kramdown-tab
 
 A vim plugin to resolve indent issue of content nested in  Markdown lists, especially for kramdown.
 
@@ -41,7 +41,7 @@ Suggest to manage your vim plugins via [Vundle][1] so you can install it simply 
 1. add the following line to your vimrc file
 
     ```
-    Plugin 'mzlogin/vim-gfm-tab'
+    Plugin 'mzlogin/vim-kramdown-tab'
     ```
 
 2. `:so $MYVIMRC`
