@@ -2,6 +2,14 @@
 
 A vim plugin to resolve indent issue of content nested in  Markdown lists, especially for kramdown.
 
+[中文版使用指南](https://mazhuang.org/2016/06/28/vim-kramdown-tab/)
+
+## Table of Contents
+
+* [Usage](#usage)
+* [Installation](#installation)
+* [Screenshots](#screenshots)
+
 With kramdown(GitHub Pages' default Markdown engine), the indent rule for content nested in lists is:
 
 * Good
